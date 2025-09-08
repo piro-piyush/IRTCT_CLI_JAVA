@@ -1,0 +1,463 @@
+[ {
+  "id" : "T001",
+  "name" : "Rajdhani Express",
+  "source" : {
+    "code" : "NDLS",
+    "name" : "New Delhi",
+    "city" : "Delhi",
+    "state" : "Delhi",
+    "platformCount" : 16,
+    "fullDescription" : "New Delhi (NDLS), Delhi, Delhi"
+  },
+  "destination" : {
+    "code" : "BCT",
+    "name" : "Mumbai Central",
+    "city" : "Mumbai",
+    "state" : "Maharashtra",
+    "platformCount" : 12,
+    "fullDescription" : "Mumbai Central (BCT), Mumbai, Maharashtra"
+  },
+  "coaches" : [ {
+    "id" : "S1",
+    "trainId" : "T001",
+    "type" : "Sleeper",
+    "totalSeats" : 72,
+    "price" : 500.0,
+    "seats" : { },
+    "availableSeats" : 72
+  }, {
+    "id" : "B1",
+    "trainId" : "T001",
+    "type" : "AC 3 Tier",
+    "totalSeats" : 64,
+    "price" : 1200.0,
+    "seats" : {
+      "1" : {
+        "name" : "Piyush",
+        "age" : 22,
+        "coach" : "B1",
+        "seatNumber" : 1
+      },
+      "2" : {
+        "name" : "Shalu",
+        "age" : 21,
+        "coach" : "B1",
+        "seatNumber" : 2
+      },
+      "3" : {
+        "name" : "Piyush",
+        "age" : 22,
+        "coach" : "B1",
+        "seatNumber" : 3
+      }
+    },
+    "availableSeats" : 61
+  }, {
+    "id" : "B2",
+    "trainId" : "T001",
+    "type" : "AC 2 Tier",
+    "totalSeats" : 48,
+    "price" : 1800.0,
+    "seats" : { },
+    "availableSeats" : 48
+  } ],
+  "runningDays" : [ "FRIDAY", "WEDNESDAY", "MONDAY" ],
+  "availableSeats" : 181,
+  "totalSeats" : 184
+}, {
+  "id" : "T002",
+  "name" : "Shatabdi Express",
+  "source" : {
+    "code" : "NDLS",
+    "name" : "New Delhi",
+    "city" : "Delhi",
+    "state" : "Delhi",
+    "platformCount" : 16,
+    "fullDescription" : "New Delhi (NDLS), Delhi, Delhi"
+  },
+  "destination" : {
+    "code" : "CNB",
+    "name" : "Kanpur Central",
+    "city" : "Kanpur",
+    "state" : "Uttar Pradesh",
+    "platformCount" : 10,
+    "fullDescription" : "Kanpur Central (CNB), Kanpur, Uttar Pradesh"
+  },
+  "coaches" : [ {
+    "id" : "C1",
+    "trainId" : "T002",
+    "type" : "AC Chair Car",
+    "totalSeats" : 78,
+    "price" : 800.0,
+    "seats" : { },
+    "availableSeats" : 78
+  }, {
+    "id" : "C2",
+    "trainId" : "T002",
+    "type" : "AC Chair Car",
+    "totalSeats" : 78,
+    "price" : 800.0,
+    "seats" : { },
+    "availableSeats" : 78
+  } ],
+  "runningDays" : [ "SATURDAY", "TUESDAY", "SUNDAY", "THURSDAY" ],
+  "availableSeats" : 156,
+  "totalSeats" : 156
+}, {
+  "id" : "T003",
+  "name" : "Duronto Express",
+  "source" : {
+    "code" : "HWH",
+    "name" : "Howrah",
+    "city" : "Kolkata",
+    "state" : "West Bengal",
+    "platformCount" : 10,
+    "fullDescription" : "Howrah (HWH), Kolkata, West Bengal"
+  },
+  "destination" : {
+    "code" : "NDLS",
+    "name" : "New Delhi",
+    "city" : "Delhi",
+    "state" : "Delhi",
+    "platformCount" : 16,
+    "fullDescription" : "New Delhi (NDLS), Delhi, Delhi"
+  },
+  "coaches" : [ {
+    "id" : "S1",
+    "trainId" : "T003",
+    "type" : "Sleeper",
+    "totalSeats" : 72,
+    "price" : 600.0,
+    "seats" : { },
+    "availableSeats" : 72
+  }, {
+    "id" : "B1",
+    "trainId" : "T003",
+    "type" : "AC 3 Tier",
+    "totalSeats" : 64,
+    "price" : 1300.0,
+    "seats" : { },
+    "availableSeats" : 64
+  } ],
+  "runningDays" : [ "FRIDAY", "TUESDAY", "MONDAY" ],
+  "availableSeats" : 136,
+  "totalSeats" : 136
+}, {
+  "id" : "T004",
+  "name" : "Garib Rath Express",
+  "source" : {
+    "code" : "NDLS",
+    "name" : "New Delhi",
+    "city" : "Delhi",
+    "state" : "Delhi",
+    "platformCount" : 16,
+    "fullDescription" : "New Delhi (NDLS), Delhi, Delhi"
+  },
+  "destination" : {
+    "code" : "BPL",
+    "name" : "Bhopal",
+    "city" : "Bhopal",
+    "state" : "Madhya Pradesh",
+    "platformCount" : 8,
+    "fullDescription" : "Bhopal (BPL), Bhopal, Madhya Pradesh"
+  },
+  "coaches" : [ {
+    "id" : "S1",
+    "trainId" : "T004",
+    "type" : "Sleeper",
+    "totalSeats" : 72,
+    "price" : 400.0,
+    "seats" : { },
+    "availableSeats" : 72
+  }, {
+    "id" : "B1",
+    "trainId" : "T004",
+    "type" : "AC 3 Tier",
+    "totalSeats" : 64,
+    "price" : 1000.0,
+    "seats" : { },
+    "availableSeats" : 64
+  }, {
+    "id" : "B2",
+    "trainId" : "T004",
+    "type" : "AC Chair Car",
+    "totalSeats" : 78,
+    "price" : 700.0,
+    "seats" : { },
+    "availableSeats" : 78
+  } ],
+  "runningDays" : [ "SATURDAY", "WEDNESDAY", "THURSDAY" ],
+  "availableSeats" : 214,
+  "totalSeats" : 214
+}, {
+  "id" : "T005",
+  "name" : "Kolkata Mail",
+  "source" : {
+    "code" : "HWH",
+    "name" : "Howrah",
+    "city" : "Kolkata",
+    "state" : "West Bengal",
+    "platformCount" : 10,
+    "fullDescription" : "Howrah (HWH), Kolkata, West Bengal"
+  },
+  "destination" : {
+    "code" : "BCT",
+    "name" : "Mumbai Central",
+    "city" : "Mumbai",
+    "state" : "Maharashtra",
+    "platformCount" : 12,
+    "fullDescription" : "Mumbai Central (BCT), Mumbai, Maharashtra"
+  },
+  "coaches" : [ {
+    "id" : "S1",
+    "trainId" : "T005",
+    "type" : "Sleeper",
+    "totalSeats" : 72,
+    "price" : 550.0,
+    "seats" : { },
+    "availableSeats" : 72
+  }, {
+    "id" : "B1",
+    "trainId" : "T005",
+    "type" : "AC 2 Tier",
+    "totalSeats" : 48,
+    "price" : 1600.0,
+    "seats" : {
+      "1" : {
+        "name" : "Piyush",
+        "age" : 22,
+        "coach" : "B1",
+        "seatNumber" : 1
+      },
+      "2" : {
+        "name" : "Shalu",
+        "age" : 21,
+        "coach" : "B1",
+        "seatNumber" : 2
+      }
+    },
+    "availableSeats" : 46
+  }, {
+    "id" : "B2",
+    "trainId" : "T005",
+    "type" : "AC 3 Tier",
+    "totalSeats" : 64,
+    "price" : 1100.0,
+    "seats" : { },
+    "availableSeats" : 64
+  } ],
+  "runningDays" : [ "FRIDAY", "THURSDAY", "MONDAY" ],
+  "availableSeats" : 182,
+  "totalSeats" : 184
+}, {
+  "id" : "T006",
+  "name" : "Jan Shatabdi",
+  "source" : {
+    "code" : "NDLS",
+    "name" : "New Delhi",
+    "city" : "Delhi",
+    "state" : "Delhi",
+    "platformCount" : 16,
+    "fullDescription" : "New Delhi (NDLS), Delhi, Delhi"
+  },
+  "destination" : {
+    "code" : "AGC",
+    "name" : "Agra Cantt",
+    "city" : "Agra",
+    "state" : "Uttar Pradesh",
+    "platformCount" : 6,
+    "fullDescription" : "Agra Cantt (AGC), Agra, Uttar Pradesh"
+  },
+  "coaches" : [ {
+    "id" : "C1",
+    "trainId" : "T006",
+    "type" : "AC Chair Car",
+    "totalSeats" : 78,
+    "price" : 600.0,
+    "seats" : { },
+    "availableSeats" : 78
+  }, {
+    "id" : "C2",
+    "trainId" : "T006",
+    "type" : "AC Chair Car",
+    "totalSeats" : 78,
+    "price" : 600.0,
+    "seats" : { },
+    "availableSeats" : 78
+  } ],
+  "runningDays" : [ "SATURDAY", "WEDNESDAY", "TUESDAY" ],
+  "availableSeats" : 156,
+  "totalSeats" : 156
+}, {
+  "id" : "T007",
+  "name" : "Mahanadi Express",
+  "source" : {
+    "code" : "BBS",
+    "name" : "Bhubaneswar",
+    "city" : "Bhubaneswar",
+    "state" : "Odisha",
+    "platformCount" : 8,
+    "fullDescription" : "Bhubaneswar (BBS), Bhubaneswar, Odisha"
+  },
+  "destination" : {
+    "code" : "HWH",
+    "name" : "Howrah",
+    "city" : "Kolkata",
+    "state" : "West Bengal",
+    "platformCount" : 10,
+    "fullDescription" : "Howrah (HWH), Kolkata, West Bengal"
+  },
+  "coaches" : [ {
+    "id" : "S1",
+    "trainId" : "T007",
+    "type" : "Sleeper",
+    "totalSeats" : 72,
+    "price" : 450.0,
+    "seats" : { },
+    "availableSeats" : 72
+  }, {
+    "id" : "B1",
+    "trainId" : "T007",
+    "type" : "AC 3 Tier",
+    "totalSeats" : 64,
+    "price" : 1050.0,
+    "seats" : { },
+    "availableSeats" : 64
+  } ],
+  "runningDays" : [ "FRIDAY", "SUNDAY", "MONDAY" ],
+  "availableSeats" : 136,
+  "totalSeats" : 136
+}, {
+  "id" : "T008",
+  "name" : "Chennai Express",
+  "source" : {
+    "code" : "MAS",
+    "name" : "Chennai Central",
+    "city" : "Chennai",
+    "state" : "Tamil Nadu",
+    "platformCount" : 12,
+    "fullDescription" : "Chennai Central (MAS), Chennai, Tamil Nadu"
+  },
+  "destination" : {
+    "code" : "NDLS",
+    "name" : "New Delhi",
+    "city" : "Delhi",
+    "state" : "Delhi",
+    "platformCount" : 16,
+    "fullDescription" : "New Delhi (NDLS), Delhi, Delhi"
+  },
+  "coaches" : [ {
+    "id" : "S1",
+    "trainId" : "T008",
+    "type" : "Sleeper",
+    "totalSeats" : 72,
+    "price" : 550.0,
+    "seats" : { },
+    "availableSeats" : 72
+  }, {
+    "id" : "B1",
+    "trainId" : "T008",
+    "type" : "AC 2 Tier",
+    "totalSeats" : 48,
+    "price" : 1700.0,
+    "seats" : { },
+    "availableSeats" : 48
+  }, {
+    "id" : "B2",
+    "trainId" : "T008",
+    "type" : "AC 3 Tier",
+    "totalSeats" : 64,
+    "price" : 1200.0,
+    "seats" : { },
+    "availableSeats" : 64
+  } ],
+  "runningDays" : [ "TUESDAY", "THURSDAY", "MONDAY" ],
+  "availableSeats" : 184,
+  "totalSeats" : 184
+}, {
+  "id" : "T009",
+  "name" : "Rajkot Express",
+  "source" : {
+    "code" : "ADI",
+    "name" : "Ahmedabad",
+    "city" : "Ahmedabad",
+    "state" : "Gujarat",
+    "platformCount" : 10,
+    "fullDescription" : "Ahmedabad (ADI), Ahmedabad, Gujarat"
+  },
+  "destination" : {
+    "code" : "BCT",
+    "name" : "Mumbai Central",
+    "city" : "Mumbai",
+    "state" : "Maharashtra",
+    "platformCount" : 12,
+    "fullDescription" : "Mumbai Central (BCT), Mumbai, Maharashtra"
+  },
+  "coaches" : [ {
+    "id" : "S1",
+    "trainId" : "T009",
+    "type" : "Sleeper",
+    "totalSeats" : 72,
+    "price" : 480.0,
+    "seats" : { },
+    "availableSeats" : 72
+  }, {
+    "id" : "B1",
+    "trainId" : "T009",
+    "type" : "AC 3 Tier",
+    "totalSeats" : 64,
+    "price" : 1100.0,
+    "seats" : { },
+    "availableSeats" : 64
+  } ],
+  "runningDays" : [ "FRIDAY", "SATURDAY", "WEDNESDAY" ],
+  "availableSeats" : 136,
+  "totalSeats" : 136
+}, {
+  "id" : "T010",
+  "name" : "Mumbai Mail",
+  "source" : {
+    "code" : "BCT",
+    "name" : "Mumbai Central",
+    "city" : "Mumbai",
+    "state" : "Maharashtra",
+    "platformCount" : 12,
+    "fullDescription" : "Mumbai Central (BCT), Mumbai, Maharashtra"
+  },
+  "destination" : {
+    "code" : "NDLS",
+    "name" : "New Delhi",
+    "city" : "Delhi",
+    "state" : "Delhi",
+    "platformCount" : 16,
+    "fullDescription" : "New Delhi (NDLS), Delhi, Delhi"
+  },
+  "coaches" : [ {
+    "id" : "S1",
+    "trainId" : "T010",
+    "type" : "Sleeper",
+    "totalSeats" : 72,
+    "price" : 520.0,
+    "seats" : { },
+    "availableSeats" : 72
+  }, {
+    "id" : "B1",
+    "trainId" : "T010",
+    "type" : "AC 3 Tier",
+    "totalSeats" : 64,
+    "price" : 1150.0,
+    "seats" : { },
+    "availableSeats" : 64
+  }, {
+    "id" : "B2",
+    "trainId" : "T010",
+    "type" : "AC 2 Tier",
+    "totalSeats" : 48,
+    "price" : 1650.0,
+    "seats" : { },
+    "availableSeats" : 48
+  } ],
+  "runningDays" : [ "TUESDAY", "SUNDAY", "THURSDAY" ],
+  "availableSeats" : 184,
+  "totalSeats" : 184
+} ]

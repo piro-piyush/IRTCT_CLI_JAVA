@@ -1,0 +1,37 @@
+[
+  {
+    "code": "NDLS",
+    "name": "New Delhi",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "platformCount": 16
+  },
+  {
+    "code": "BCT",
+    "name": "Mumbai Central",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "platformCount": 10
+  },
+  {
+    "code": "HWH",
+    "name": "Howrah Junction",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "platformCount": 23
+  },
+  {
+    "code": "MAS",
+    "name": "Chennai Central",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "platformCount": 15
+  },
+  {
+    "code": "SBC",
+    "name": "KSR Bengaluru",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "platformCount": 10
+  }
+]

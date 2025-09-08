@@ -1,0 +1,50 @@
+[ {
+  "id" : "8EE8",
+  "name" : "Piyush",
+  "email" : "piyush72717272@gmail.com",
+  "passwordHash" : "$2a$10$Z37nH4V465F9a3miH7ir9uXnwJ2tnOBHg/t4yvF76NFUw4pqgauHO",
+  "phoneNumber" : "2222111134",
+  "aadhaarUid" : "323232323232",
+  "tickets" : [ {
+    "id" : "EF5F",
+    "trainId" : "T001",
+    "bookerId" : "8EE8",
+    "securityNumber" : "B1DB",
+    "price" : 2400.0,
+    "seats" : 2,
+    "journeyDate" : "2025-09-08",
+    "hasCancelled" : false,
+    "passengers" : {
+      "B1-1" : {
+        "name" : "Piyush",
+        "age" : 22,
+        "coach" : "B1",
+        "seatNumber" : 1
+      },
+      "B1-2" : {
+        "name" : "Shalu",
+        "age" : 21,
+        "coach" : "B1",
+        "seatNumber" : 2
+      }
+    }
+  }, {
+    "id" : "A0C2",
+    "trainId" : "T001",
+    "bookerId" : "8EE8",
+    "securityNumber" : "ED39",
+    "price" : 1200.0,
+    "seats" : 1,
+    "journeyDate" : "2025-09-08",
+    "hasCancelled" : false,
+    "passengers" : {
+      "B1-3" : {
+        "name" : "Piyush",
+        "age" : 22,
+        "coach" : "B1",
+        "seatNumber" : 3
+      }
+    }
+  } ],
+  "aadhaarNumber" : "323232323232"
+} ]
